@@ -1,5 +1,7 @@
 def calcular():
-
+    
+    num1 = int (input ("Enter your first number: "))
+    
     operação = input ('''
 Please enter the math operation you'd like to complete
 + for addition
@@ -8,8 +10,7 @@ Please enter the math operation you'd like to complete
 / for division
 ''')
 
-    num1 = int (input ("Enter your first number: "))
-    num2 = int (input ("Enter your second number: "))
+        num2 = int (input ("Enter your second number: "))
 
 #print (num1 + num2)
 
